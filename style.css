@@ -9,10 +9,23 @@ footer {
   height: 11em;
   position: absolute;
   bottom: 0;
-  background-color: #d4d4d4;
+  background: linear-gradient(to bottom left,#ba77b1,#8176b5) !important;
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
-.link {
+nav a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+nav a:hover, p a:hover {
+  color: #66FFCC;
+}
+
+p a {
   color: #495057;
   text-decoration: none;
   background-color: transparent;
