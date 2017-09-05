@@ -1,56 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="description" content="My personal portfolio.">
+  <meta name="author" content="A-J Roos">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>The portfolio of A-J Roos</title>
+
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/f5fadd91a9.js"></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
   <![endif]-->
 
-  <meta charset="utf-8">
-  <meta name="description" content="My personal portfolio.">
-  <meta name="author" content="A-J Roos">
-  <link href="style.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 <body>
 
-<article>
-    <h1>Welcome to my portfolio.</h1>
-  <section>
-    <h2>About me.</h2>
-    <img id="profile" src="images/profile.jpg" alt="Photo of myself." width="130" height="130">
-    <p>I'm currently studying Front-End Web Development using <a href="https://www.freecodecamp.org" target="_blank">freecodecamp</a>
-       and <a href="https://www.codecademy.com" target="_blank">codecademy</a>.</p>
-    <p></p>
-  </section>
-  <section>
-    <h3>Links to my profiles.</h3>
-    <p>My <img src="images/twitter.png" alt="Twitter logo" width="14" height="14"> <a href="https://twitter.com/asjasroos" target="_blank">Twitter</a> account.</p>
-    <p>My <img src="images/github.png" alt="Github logo" width="15" height="15"> <a href="https://github.com/Asjas" target="_blank">Github</a> account.</p>
-    <p>My <img src="images/freecodecamp.png" alt="Freecodecamp logo" width="16" height="16"> <a href="https://www.freecodecamp.org/asjas"
-      target="_blank">FreeCodecamp</a> account.</p>
-    <p>My <img src="images/codecademy.png" alt="Codecademy logo" width="16" height="16"> <a href="https://www.codecademy.com/Asjas"
-      target="_blank">Codecademy</a> account.</p>
-      <p>My <img src="" alt="Linkedin logo" width="14" height="14"> <a href="https://www.linkedin.com/in/a-j-roos-11582066/"
-        target="_blank">Linkedin</a> account</p>
-  </section>
-</article>
-<article>
-  <h3>Here are my certificates. Click to download.</h3>
-  <p><a href="https://www.dropbox.com/s/212bbyolsfdx19w/Comptia%20A%2B.pdf?dl=0" target="_blank">Comptia A+</a></p>
-  <p><a href="https://www.dropbox.com/s/gxcd9segaz8kpn0/Comptia%20Linux%2B.pdf?dl=0" target="_blank">Comptia Linux+</a></p>
-  <p><a href="https://www.dropbox.com/s/bsvvnfpkcfofiha/LPIC1.pdf?dl=0" target="_blank">LPIC 1</a></p>
-  <p><a href="https://www.dropbox.com/s/06glg051jf1yfdl/A-JRoos_SCLA_ECR.pdf?dl=0" target="_blank">SuSE CLA</a></p>
-  <p><a href="https://www.dropbox.com/s/mex1qjppt52dr5z/EdX%20Introduction%20to%20Linux%20Certificate.pdf?dl=0"
-    target="_blank">edX Introduction to Linux</a></p>
-</article>
+<main>
 
-  <footer>
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="text-muted">Welcome to my portfolio.</h1>
+    <hr class="my-4">
+    <p>I'm currently studying Front-End Web Development using freecodecamp and codecademy.</p>
+  </div>
+</div>
+
+<div class="container">
+  <h2>A-J Roos</h2>
+  <img src="images/profile.jpg" alt="Photo of myself." width="130" height="130">
+  <p>Address:</p>
+  <address>
+    Langenhovenpark<br>
+    Bloemfontein<br>
+    Free State<br>
+    South Africa<br>
+  </address>
+</div>
+
+<div class="container">
+  <h3>Web technologies I'm Learning.</h3>
+  <ul class="fa-ul">
+    <li><i class="fa-li fa fa-check-square"></i>HTML 5</li>
+    <li><i class="fa-li fa fa-check-square"></i>CSS 3</li>
+    <li><i class="fa-li fa fa-check-square"></i>JavaScript</li>
+    <li><i class="fa-li fa fa-check-square"></i>Bootstrap</li>
+    <li><i class="fa-li fa fa-check-square"></i>Vue.js</li>
+  </ul>
+</div>
+
+<div class="container">
+  <p>I can be contacted on <a class="link email" href="mailto:asjas@outlook.com?subject=Contacting%20about%20Freelance%20Web%20Development%20Project"><i>asjas@outlook.com</i></a> for any freelance Web Development projects</p>
+</div>
+
+</main>
+
+<footer class="container text-muted credit text-center">
   <p>&copy; Copyright 2017. Created by A-J Roos.</p>
-  </footer>
+  <nav class="container">
+    <a class="nav-link link" href="https://twitter.com/asjasroos" target="_blank">Twitter</a>
+    <a class="nav-link link" href="https://github.com/Asjas" target="_blank">Github</a>
+    <a class="nav-link link" href="https://www.freecodecamp.org/asjas" target="_blank">FreeCodeCamp</a>
+  </nav>
+</footer>
 
 </body>
 </html>
