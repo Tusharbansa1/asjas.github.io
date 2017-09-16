@@ -3,44 +3,73 @@
 }
 
 body {
-  font-family: Roboto, sans-serif !important;
+  font-family: Verdana, Arial, sans-serif;
   font-size: 16px;
 }
 
-footer {
-  padding: 1rem;
-  font-size: 0.7rem;
-  text-align: left;
+header {
+  text-align: center;
+  color: #abafba;
   position: relative;
-  bottom: 0;
-  background: black;
+  top: 0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: url("images/header_photo.jpeg") center no-repeat;
   background-size: cover;
 }
 
-nav a {
-  padding-right: 1rem;
+#contact {
+  width: 500px;
+  position: relative;
+  top: -10px;
+  background-color: silver;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+	height: 40px;
 }
 
-nav a, footer .container, .jumbotron, #copyright {
+#contact h2 {
   color: white;
+  text-align: center;
+}
+
+#wrapper {
+  width: 500px;
+  display: flex;
+  flex-flow: column;
+  border-left: 1px solid #888;
+  border-right: 1px solid #888;
+  border-bottom: 1px solid #888;
+  position: relative;
+  top: -10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  box-shadow: 3px 3px 3px #444;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.8em;
 }
 
 nav a:hover, p a:hover {
-  color: #66FFCC;
+  color: #354dd6;
 }
 
-p a {
-  color: #495057;
+a {
   text-decoration: none;
   background-color: transparent;
 }
 
-.email, .info p, .info h2, div h3, ul, li, address {
-  color: black;
+form {
+    width: 200px;
+    clear: both;
 }
 
-li, h2, nav li {
-  margin-left: 0.7rem;
+textarea {
+    vertical-align: top;
+    width: 400px;
+    max-width: 440px;
+    height: 80px;
+    max-height: 180px;
 }
 
 img {
@@ -49,18 +78,13 @@ img {
   background-color: white;
 }
 
-address {
-  font-style: italic;
-  margin-left: 1rem;
-}
-
-header {
-  text-align: left;
-  color: white;
-  position: relative;
-  top: 0;
+footer {
+  display: flex;
+  flex-flow: column;
   padding: 1rem;
-  margin-bottom: 1rem;
-  background: url("images/1-nR4SClioWKU6WbUV0qegMg.jpeg") center no-repeat;
+  font-size: 0.7rem;
+  text-align: center;
+  position: relative;
+  bottom: 0;
   background-size: cover;
 }
