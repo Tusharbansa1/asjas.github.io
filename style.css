@@ -7,6 +7,10 @@ body {
   font-size: 16px;
 }
 
+container {
+  display: flex;
+}
+
 header {
   text-align: center;
   color: #abafba;
@@ -18,8 +22,8 @@ header {
   background-size: cover;
 }
 
-#contact {
-  width: 500px;
+.contact {
+  width: 380px;
   position: relative;
   top: -10px;
   background-color: silver;
@@ -28,13 +32,13 @@ header {
 	height: 40px;
 }
 
-#contact h2 {
+.contact h2 {
   color: white;
   text-align: center;
 }
 
 #wrapper {
-  width: 500px;
+  width: 380px;
   display: flex;
   flex-flow: column;
   border-left: 1px solid #888;
@@ -60,13 +64,13 @@ a {
 }
 
 form {
-    width: 200px;
+    width: 160px;
     clear: both;
 }
 
 textarea {
     vertical-align: top;
-    width: 400px;
+    width: 300px;
     max-width: 440px;
     height: 80px;
     max-height: 180px;

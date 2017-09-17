@@ -27,19 +27,17 @@
 <body lang="en" style="height: 100%">
 
 <header>
-  <div class="container">
     <h1>Welcome to my personal portfolio.</h1><br>
     <p>I'm currently studying Front-End Web Development using freecodecamp and codecademy.</p>
-  </div>
 </header>
 
 <main>
-<div class="profile">
+<div class="container">
   <h2>A-J Roos</h2>
   <img class="rounded-circle" src="images/profile.jpg" alt="Photo of myself." width="160" height="160">
 </div>
 
-<div class="info">
+<div class="container">
   <h3>Web technologies I'm Learning.</h3>
   <ul class="fa-ul">
     <li><i class="fa-li fa fa-check-square"></i>HTML 5</li>
@@ -50,16 +48,11 @@
   </ul>
 </div>
 
-<div class="info">
-  <p>I can be contacted on <a class="link email" href="mailto:asjas@outlook.com?subject=Contacting%20about%20Freelance%20Web%20Development%20Project"><i>asjas@outlook.com</i></a> for any freelance Web Development projects</p>
-</div>
-</main>
-
-<div id="contact">
+<div class="container contact">
   <h2>How to contact me:</h2>
 </div>
   <div id="wrapper">
-	  <form name="input" method="post">
+	  <form name="input" method="POST" action="http://formspree.io/asjas@outlook.com">
 	    First Name: <input type="text" name="Name" value=""><br />
 	    Last Name: <input type="text" name="Surname" value=""><br />
       Email: <input type="text" name="Email" value=""><br /><br />
