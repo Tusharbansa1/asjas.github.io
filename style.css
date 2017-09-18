@@ -23,7 +23,7 @@ header {
 }
 
 .contact {
-  width: 380px;
+  width: 350px;
   position: relative;
   top: -10px;
   background-color: silver;
@@ -38,7 +38,7 @@ header {
 }
 
 #wrapper {
-  width: 380px;
+  width: 350px;
   display: flex;
   flex-flow: column;
   border-left: 1px solid #888;
@@ -71,9 +71,11 @@ form {
 textarea {
     vertical-align: top;
     width: 300px;
-    max-width: 440px;
+    min-width: 300px;
+    max-width: 300px;
     height: 80px;
-    max-height: 180px;
+    min-height: 80px;
+    max-height: 120px;
 }
 
 img {
