@@ -1,94 +1,152 @@
-* {
-  box-sizing: border-box;
+/*!
+ * Start Bootstrap - Landing Page (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+  width: 100%;
+  height: 100%;
 }
 
-body {
-  font-family: Verdana, Arial, sans-serif;
-  font-size: 16px;
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 
-container {
-  display: flex;
-}
-
-header {
+.intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
-  color: #abafba;
-  position: relative;
-  top: 0;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  background: url("images/header_photo.jpeg") center no-repeat;
+  color: #f8f8f8;
+  background: url(img/intro-bg.jpg) no-repeat center center;
   background-size: cover;
 }
 
-.contact {
-  width: 380px;
+.intro-message {
   position: relative;
-  top: -10px;
-  background-color: silver;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-	height: 40px;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
-.contact h2 {
-  color: white;
-  text-align: center;
+.intro-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
 }
 
-#wrapper {
-  width: 380px;
-  display: flex;
-  flex-flow: column;
-  border-left: 1px solid #888;
-  border-right: 1px solid #888;
-  border-bottom: 1px solid #888;
-  position: relative;
-  top: -10px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  box-shadow: 3px 3px 3px #444;
-  font-family: Verdana, Arial, sans-serif;
-  font-size: 0.8em;
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-nav a:hover, p a:hover {
-  color: #354dd6;
+.intro-message>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
-a {
-  text-decoration: none;
-  background-color: transparent;
+.intro-social-buttons i {
+  font-size: 80%;
 }
 
-form {
-    width: 160px;
-    clear: both;
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
 }
 
-textarea {
-    vertical-align: top;
-    width: 300px;
-    max-width: 440px;
-    height: 80px;
-    max-height: 180px;
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 
-img {
-  margin-bottom: 1rem;
-  margin: 2rem;
-  background-color: white;
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(/img/banner-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
 }
 
 footer {
-  display: flex;
-  flex-flow: column;
-  padding: 1rem;
-  font-size: 0.7rem;
-  text-align: center;
-  position: relative;
-  bottom: 0;
-  background-size: cover;
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+p.copyright {
+  margin: 15px 0 0;
 }

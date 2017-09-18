@@ -1,80 +1,218 @@
 <!DOCTYPE html>
-<html lang="en" style="height: 100%;">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="description" content="My personal portfolio."/>
-  <meta name="author" content="A-J Roos"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<html lang="en">
+  <head>
 
-  <meta property="og:title" content="The portfolio of A-J Roos"/>
-  <meta property="og:type" content="Personal Profile"/>
-  <meta property="og:url" content="asjas.github.io"/>
-  <meta property="og:image" content=""/>
-  <meta property="og:description" content="The personal porfolio of A-J Roos."/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Personal Portfolio of A-J Roos">
+    <meta name="author" content="A-J Roos">
 
-  <title>The portfolio of A-J Roos</title>
+    <title>Portfolio - A-J Roos</title>
 
-  <link href="style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <script src="https://use.fontawesome.com/f5fadd91a9.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
-  <![endif]-->
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-</head>
-<body lang="en" style="height: 100%">
+    <!-- Custom styles for this template -->
+    <link href="landing-page.css" rel="stylesheet">
 
-<header>
-    <h1>Welcome to my personal portfolio.</h1><br>
-    <p>I'm currently studying Front-End Web Development using freecodecamp and codecademy.</p>
-</header>
+  </head>
 
-<main class="container">
-<div class="row">
-  <div class="col-8">
-  <h2>A-J Roos</h2>
-  <img class="rounded-circle" src="images/profile.jpg" alt="Photo of myself." width="160" height="160">
-  </div>
-</div>
+  <body>
 
-<div class="row">
-  <div class="col-4">
-  <h3>Web technologies I'm Learning.</h3>
-  <ul class="fa-ul">
-    <li><i class="fa-li fa fa-check-square"></i>HTML 5</li>
-    <li><i class="fa-li fa fa-check-square"></i>CSS 3</li>
-    <li><i class="fa-li fa fa-check-square"></i>JavaScript</li>
-    <li><i class="fa-li fa fa-check-square"></i>Bootstrap</li>
-    <li><i class="fa-li fa fa-check-square"></i>Vue.js</li>
-  </ul>
-  </div>
-</div>
-
-<div class="row contact">
-  <h2>How to contact me:</h2>
-  <div id="wrapper col-lg-8">
-	  <form name="input" method="POST" action="https://formspree.io/asjas@outlook.com">
-	    First Name: <input type="text" name="Name" value=""><br />
-	    Last Name: <input type="text" name="Surname" value=""><br />
-      Email: <input type="text" name="Email" value=""><br /><br />
-      Message: <textarea name="msg"></textarea><br />
-	    <input type="submit">
-	  </form>
-  </div>
-</div>
-
-
-<footer class="">
-    <p>Developed and created by A-J Roos. All Rights Reserved.</p>
-    <nav>
-      <a href="https://twitter.com/asjasroos" target="_blank">Twitter</a>
-      <a href="https://github.com/Asjas" target="_blank">Github</a>
-      <a href="https://www.freecodecamp.org/asjas" target="_blank">FreeCodeCamp</a>
-      <a href="https://www.linkedin.com/in/a-j-roos-11582066/" target="_blank">Linkedin</a>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-</footer>
 
-</body>
+    <!-- Header -->
+    <header class="intro-header">
+      <div class="container">
+        <div class="intro-message">
+          <h1>Landing Page</h1>
+          <h3>A Template by Start Bootstrap</h3>
+          <hr class="intro-divider">
+          <ul class="list-inline intro-social-buttons">
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-secondary btn-lg">
+                <i class="fa fa-twitter fa-fw"></i>
+                <span class="network-name">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-secondary btn-lg">
+                <i class="fa fa-github fa-fw"></i>
+                <span class="network-name">Github</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-secondary btn-lg">
+                <i class="fa fa-linkedin fa-fw"></i>
+                <span class="network-name">Linkedin</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="content-section-a">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 ml-auto">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
+            <p class="lead">A special thanks to
+              <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>
+              for providing the photographs that you see in this template. Visit their website to become a member.</p>
+          </div>
+          <div class="col-lg-5 mr-auto">
+            <img class="img-fluid" src="img/ipad.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <section class="content-section-b">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 mr-auto order-lg-2">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
+            <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by
+              <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+          </div>
+          <div class="col-lg-5 ml-auto order-lg-1">
+            <img class="img-fluid" src="img/dog.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+    <!-- /.content-section-b -->
+
+    <section class="content-section-a">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 ml-auto">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
+            <p class="lead">This template features the 'Lato' font, part of the
+              <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as
+              <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+          </div>
+          <div class="col-lg-5 mr-auto ">
+            <img class="img-fluid" src="img/phones.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+    <!-- /.content-section-a -->
+
+    <aside class="banner">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 my-auto">
+            <h2>Connect to Start Bootstrap:</h2>
+          </div>
+          <div class="col-lg-6 my-auto">
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-secondary btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-secondary btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-secondary btn-lg">
+                  <i class="fa fa-linkedin fa-fw"></i>
+                  <span class="network-name">Linkedin</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </aside>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#services">Services</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <p class="copyright text-muted small">Copyright &copy; A-J Roos 2017. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
 </html>
