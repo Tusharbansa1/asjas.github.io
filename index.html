@@ -16,7 +16,7 @@
 
   <link href="style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <script src="https://use.fontawesome.com/f5fadd91a9.js"></script>
 
   <!--[if lt IE 9]>
@@ -31,13 +31,16 @@
     <p>I'm currently studying Front-End Web Development using freecodecamp and codecademy.</p>
 </header>
 
-<main>
-<div class="container">
+<main class="container">
+<div class="row">
+  <div class="col-8">
   <h2>A-J Roos</h2>
   <img class="rounded-circle" src="images/profile.jpg" alt="Photo of myself." width="160" height="160">
+  </div>
 </div>
 
-<div class="container">
+<div class="row">
+  <div class="col-4">
   <h3>Web technologies I'm Learning.</h3>
   <ul class="fa-ul">
     <li><i class="fa-li fa fa-check-square"></i>HTML 5</li>
@@ -46,12 +49,12 @@
     <li><i class="fa-li fa fa-check-square"></i>Bootstrap</li>
     <li><i class="fa-li fa fa-check-square"></i>Vue.js</li>
   </ul>
+  </div>
 </div>
 
-<div class="container contact">
+<div class="row contact">
   <h2>How to contact me:</h2>
-</div>
-  <div id="wrapper">
+  <div id="wrapper col-lg-8">
 	  <form name="input" method="POST" action="https://formspree.io/asjas@outlook.com">
 	    First Name: <input type="text" name="Name" value=""><br />
 	    Last Name: <input type="text" name="Surname" value=""><br />
@@ -59,10 +62,11 @@
       Message: <textarea name="msg"></textarea><br />
 	    <input type="submit">
 	  </form>
- </div>
+  </div>
+</div>
 
 
-<footer>
+<footer class="">
     <p>Developed and created by A-J Roos. All Rights Reserved.</p>
     <nav>
       <a href="https://twitter.com/asjasroos" target="_blank">Twitter</a>
