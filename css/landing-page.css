@@ -97,6 +97,11 @@ body, h1, h2, h3, h4, h5, h6, ul, li{
   border-top: 3px solid #E7E7E7;
 }
 
+.quote-generator {
+  padding: 15px;
+  background-color: white;
+}
+
 .banner {
   padding: 100px 0;
   color: #F8F8F8;
