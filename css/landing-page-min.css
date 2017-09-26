@@ -1,0 +1,54 @@
+body, html{width:100%;height:100%;}
+body, h1, h2, h3, h4, h5, h6, ul, li{font-family:"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:700;}
+.intro-header{padding-top:50px;padding-bottom:50px;text-align:center;color:#F8F8F8;background:url(../img/header_photo.jpeg) no-repeat center center;background-size:cover;}
+.intro-message{position:relative;padding-top:20%;padding-bottom:20%;}
+.intro-message>h1{margin:0;text-shadow:2px 2px 3px rgba(0, 0, 0, 0.6);font-size:5em;}
+.intro-divider{width:400px;border-top:1px solid #F8F8F8;border-bottom:1px solid rgba(0, 0, 0, 0.2);}
+.intro-message>h3{text-shadow:2px 2px 3px rgba(0, 0, 0, 0.6);}
+.intro-social-buttons i{font-size:80%;}
+@media(max-width:767px){.intro-message{padding-bottom:15%;}
+.intro-message>h1{font-size:3em;}
+ul.intro-social-buttons>li{display:block;margin-bottom:20px;padding:0;}
+ul.intro-social-buttons>li:last-child{margin-bottom:0;}
+.intro-divider{width:100%;}
+}
+.network-name{text-transform:uppercase;font-size:14px;font-weight:400;letter-spacing:2px;}
+.content-section-a{padding:50px 0;background-color:#F8F8F8;}
+.content-section-b{padding:50px 0;border-top:1px solid #E7E7E7;border-bottom:1px solid #E7E7E7;}
+.section-heading{margin-bottom:30px;}
+.section-heading-spacer{float:left;width:200px;border-top:3px solid #E7E7E7;}
+.quote-generator{padding:15px;background-color:white;}
+.banner{padding:100px 0;color:#F8F8F8;background:url(../img/footer-photo.jpeg) no-repeat center center;background-size:cover;}
+.banner h2{margin:0;text-shadow:2px 2px 3px rgba(0, 0, 0, 0.6);font-size:3em;}
+.input-form{color:#30302F;font-family:"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;max-width:400px;margin:8px auto;padding:14px;background:#F7F7F7;}
+.input-form input[type="text"],
+.input-form input[type="date"],
+.input-form input[type="datetime"],
+.input-form input[type="email"],
+.input-form input[type="number"],
+.input-form input[type="search"],
+.input-form input[type="time"],
+.input-form input[type="url"],
+.input-form textarea,
+.input-form select{-webkit-transition:all 0.30s ease-in-out;-moz-transition:all 0.30s ease-in-out;-ms-transition:all 0.30s ease-in-out;-o-transition:all 0.30s ease-in-out;outline:none;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;width:100%;background:#FFF;margin-bottom:3%;border:1px solid #ccc;padding:3%;color:#555;font-family:"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.input-form input[type="text"]:focus,
+.input-form input[type="date"]:focus,
+.input-form input[type="datetime"]:focus,
+.input-form input[type="email"]:focus,
+.input-form input[type="number"]:focus,
+.input-form input[type="search"]:focus,
+.input-form input[type="time"]:focus,
+.input-form input[type="url"]:focus,
+.input-form textarea:focus,
+.input-form select:focus{box-shadow:0 0 5px #4C4B4A;padding:3%;border:1px solid #4C4B4A;}
+.input-form textarea{min-height:80px;max-height:240px;}
+.input-form input[type="submit"],
+.input-form input[type="button"]{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;width:100%;padding:3%;background:#4c4b4a;border-bottom:2px solid #4C4B4A;border-top-style:none;border-right-style:none;border-left-style:none;color:#FFF;}
+.input-form input[type="submit"]:hover,
+.input-form input[type="button"]:hover{background:#30302F;}
+@media(max-width:1199px){.input-form{float:left;margin-top:15px;}
+}
+@media(max-width:767px){.banner h2{margin:0;text-shadow:2px 2px 3px rgba(0, 0, 0, 0.6);font-size:3em;}
+}
+footer{padding:50px 0;background-color:#F8F8F8;}
+p.copyright{margin:15px 0 0;}
