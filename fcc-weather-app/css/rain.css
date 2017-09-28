@@ -141,7 +141,7 @@
 @media screen
   and (device-width: 360px)
   and (device-height: 640px) {
-    .cloud {
+    .cloud, .rain, .lightning, .bolt {
       top: 62%;
     }
 }
