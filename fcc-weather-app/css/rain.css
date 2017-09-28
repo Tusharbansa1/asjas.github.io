@@ -1,7 +1,7 @@
 .cloud {
   position: absolute;
   z-index: 1;
-  top: 50%;
+  top: 62%;
   left: 50%;
   width: 3.6875em;
   height: 3.6875em;
@@ -137,6 +137,14 @@
 }
 
 // Animations
+
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px) {
+    .cloud {
+      top: 62%;
+    }
+}
 
 @keyframes cloud {
   0% { opacity: 0; }

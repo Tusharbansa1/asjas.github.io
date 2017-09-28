@@ -1,7 +1,7 @@
 .cloud {
   position: absolute;
   z-index: 1;
-  top: 50%;
+  top: 62%;
   left: 50%;
   width: 3.6875em;
   height: 3.6875em;
@@ -70,6 +70,14 @@
   font-size: 2em;
   opacity: 0.4;
   animation: spin 16s linear infinite reverse;
+}
+
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px) {
+    .cloud {
+      top: 62%;
+    }
 }
 
 // Animations

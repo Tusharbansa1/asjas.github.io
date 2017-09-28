@@ -1,7 +1,7 @@
 .cloud {
   position: absolute;
   z-index: 1;
-  top: 50%;
+  top: 62%;
   left: 50%;
   width: 3.6875em;
   height: 3.6875em;
@@ -40,6 +40,14 @@
   animation: cloud 4s linear infinite;
 }
 .cloud:nth-child(2):after { background: #fff; }
+
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px) {
+    .cloud {
+      top: 62%;
+    }
+}
 
 // Animations
 
