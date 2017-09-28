@@ -23,12 +23,12 @@
   display: block;
   width: 4.5625em;
   height: 1em;
-  background: currentColor;
+  background: rgba(255,255,255,0);
   box-shadow: 0 0.4375em 0 -0.0625em #fff;
 }
 .cloud:nth-child(2) {
   z-index: 0;
-  background: #fff;
+  background: rgba(255,255,255,0);
   box-shadow:
     -2.1875em 0.6875em 0 -0.6875em #fff,
     2.0625em 0.9375em 0 -0.9375em #fff,
@@ -39,7 +39,7 @@
   transform: scale(0.5) translate(6em, -3em);
   animation: cloud 4s linear infinite;
 }
-.cloud:nth-child(2):after { background: #fff; }
+.cloud:nth-child(2):after { background: rgba(255,255,255,0); }
 
 .lightning {
   position: absolute;
