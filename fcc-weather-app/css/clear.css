@@ -1,6 +1,6 @@
 .sun {
   position: absolute;
-  top: 65%;
+  top: 62%;
   left: 50%;
   width: 2.5em;
   height: 2.5em;
@@ -39,6 +39,14 @@
 }
 .rays:before {
   transform: rotate(120deg);
+}
+
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px) {
+    .sun {
+      top: 72%;  
+    }
 }
 
 // Animations
