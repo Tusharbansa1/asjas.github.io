@@ -45,7 +45,7 @@
 .flake:after {
   content: '\2744';
   position: absolute;
-  top: 50%;
+  top: 62%;
   left: 50%;
   margin: -1.025em 0 0 -1.0125em;
   color: #fff;
@@ -75,7 +75,7 @@
 @media screen
   and (device-width: 360px)
   and (device-height: 640px) {
-    .cloud, .flake {
+    .cloud, .flake, .flake:before, .flake:after {
       top: 62%;
     }
 }

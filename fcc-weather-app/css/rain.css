@@ -55,7 +55,7 @@
 .rain {
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 62%;
   left: 50%;
   width: 3.75em;
   height: 3.75em;
@@ -67,7 +67,7 @@
   content: '';
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 62%;
   left: 50%;
   width: 1.125em;
   height: 1.125em;
@@ -84,7 +84,7 @@
 
 .bolt {
   position: absolute;
-  top: 50%;
+  top: 62%;
   left: 50%;
   margin: -0.25em 0 0 -0.125em;
   color: #fff;
@@ -104,7 +104,7 @@
   content: '';
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 62%;
   left: 50%;
   margin: -1.625em 0 0 -1.0125em;
   border-top: 1.25em solid transparent;
@@ -141,7 +141,7 @@
 @media screen
   and (device-width: 360px)
   and (device-height: 640px) {
-    .cloud, .rain, .lightning, .bolt {
+    .cloud, .rain, .lightning, .rain:after, .bolt, .bolt:before, .bolt:after {
       top: 62%;
     }
 }
